@@ -8,7 +8,7 @@
 export const Name: React.FC = () => {
   return (
     <div className='widget1x2'>
-      <h1>Aqui va mi nimbre</h1>
+      <h1>Aqui va mi nombre</h1>
     </div>
   )
 }
