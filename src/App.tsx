@@ -1,6 +1,7 @@
 //import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
+import { Name } from './components/1x2/name.tsx';
 import './App.css'
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
   return (
     <>
       <div className='home bentox'>
-        
+        <Name />
       </div>
     </>
   )
