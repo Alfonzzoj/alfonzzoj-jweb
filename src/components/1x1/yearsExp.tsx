@@ -1,9 +1,7 @@
-import React from 'react'
-
-function yearsExp() {
+export const YearsExp: React.FC = () => {
   return (
-    <div>yearsExp</div>
-  )
-}
-
-export default yearsExp
+    <div className="widget1x1">
+      <h1>YearsExp</h1>
+    </div>
+  );
+};

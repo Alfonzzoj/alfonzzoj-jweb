@@ -1,9 +1,7 @@
-import React from 'react'
-
-function projects() {
+export const Projects: React.FC = () => {
   return (
-    <div>projects</div>
-  )
-}
-
-export default projects
+    <div className="widget1x1">
+      <h1>Projects</h1>
+    </div>
+  );
+};

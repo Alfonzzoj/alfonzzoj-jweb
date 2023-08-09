@@ -1,9 +1,7 @@
-import React from 'react'
-
-function discord() {
+export const Discord: React.FC = () => {
   return (
-    <div>discord</div>
-  )
-}
-
-export default discord
+    <div className="widget1x1">
+      <h1>Discord</h1>
+    </div>
+  );
+};

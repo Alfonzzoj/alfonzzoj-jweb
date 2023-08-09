@@ -1,9 +1,7 @@
-import React from 'react'
-
-function mailto() {
+export const Mailto: React.FC = () => {
   return (
-    <div>mailto</div>
-  )
-}
-
-export default mailto
+    <div className="widget1x1">
+      <h1>Mailto</h1>
+    </div>
+  );
+};

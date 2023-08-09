@@ -1,9 +1,7 @@
-import React from 'react'
-
-function github() {
+export const Github: React.FC = () => {
   return (
-    <div>github</div>
-  )
-}
-
-export default github
+    <div className="widget1x1">
+      <h1>Github</h1>
+    </div>
+  );
+};

@@ -1,9 +1,7 @@
-import React from 'react'
-
-function language() {
+export const Language: React.FC = () => {
   return (
-    <div>language</div>
-  )
-}
-
-export default language
+    <div className="widget1x1">
+      <h1>Language</h1>
+    </div>
+  );
+};
