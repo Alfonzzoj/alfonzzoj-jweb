@@ -3,7 +3,6 @@
 // import viteLogo from '/vite.svg'
 import { Name } from './components/1x2/name.tsx';
 import './App.css'
-import name from './components/1x1/name';
 
 function App() {
   //const [count, setCount] = useState(0)
