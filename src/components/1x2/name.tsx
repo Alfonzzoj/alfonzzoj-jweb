@@ -7,7 +7,7 @@
 
 export const Name: React.FC = () => {
   return (
-    <div className='widget1x2'>
+    <div className='widget 1x2'>
       <h1>Aqui va mi nombre</h1>
     </div>
   )
