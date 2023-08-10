@@ -27,7 +27,10 @@ function App() {
   return (
     <>
       <div className='home bento'>
+        <PersonalImg />
         <Name />
+        <PersonalRoll />
+        <Spotify />
         <Discord />
         <Github />
         <Language />
@@ -35,10 +38,7 @@ function App() {
         <Mailto />
         <Projects />
         <YearsExp />
-        <PersonalRoll />
         <Skills />
-        <PersonalImg />
-        <Spotify />
 
       </div>
     </>

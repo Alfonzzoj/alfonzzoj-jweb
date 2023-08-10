@@ -1,5 +1,45 @@
-.widget1x1 {
-  background-color: bisque;
+.widget {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid rgba(24, 0, 0, 0.6666666667) 2px;
+  background-color: rgba(23, 23, 23, 0.6666666667);
+  padding: 1rem;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  transition: 0.2s all;
+}
+.widget.interactive:hover {
+  scale: 1.03;
+  cursor: pointer;
+}
+.widget::before {
+  content: "";
+  background-color: transparent;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 600'%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23a)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 182px;
+  opacity: 0.12;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.widget.x1_y2 {
+  grid-column-end: span 2;
+}
+.widget.x1_y2 {
+  grid-column-end: span 2;
+}
+.widget.x2_y1 {
+  grid-row-end: span 2;
+}
+.widget.x2_y2 {
+  grid-column-end: span 2;
+  grid-row-end: span 2;
 }
 
 .bento {
@@ -7,6 +47,10 @@
   grid-template-columns: repeat(4, minmax(0, 1fr));
   grid-auto-rows: 192px;
   max-width: 1200px;
+  gap: 1rem;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 /*# sourceMappingURL=home.css.map */

@@ -9,6 +9,11 @@
   grid-auto-rows: 192px;
 
   max-width: 300 * 4px;
+  gap: 1rem;
+
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 
 }
 
