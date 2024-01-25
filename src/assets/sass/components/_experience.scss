@@ -1,0 +1,17 @@
+.bk-color-purple {
+  background-color: #7913b0;
+  opacity: 0.7;
+}
+
+.experience {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  p {
+    text-align: center;
+    margin: 0;
+    letter-spacing: 2px;
+    font-weight: 700;
+  }
+}
